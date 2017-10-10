@@ -18,4 +18,6 @@ class Meat(Food):
 		Food.__init__(self, name, calories)
 		self.sweet = False
 		self.flavor = protein
-	
+
+# Exercise:  uncomment and implement
+# class Vegetable	
