@@ -1,0 +1,10 @@
+17:00 - 17:05	Introduction?
+17:05 - 17:10	Data type review - primitives and composites (analogy to mech parts and car or motorcycle).  Talk about properties of data types.
+17:10 - 17:15	Intro to classes - What is a class?  Instance, init, properties, attributes, class attributes, bound and unbound methods.
+		Talk about Food.
+		Types of food - super and subclasses
+17:15 - 17:20	Motivation for subclasses
+17:20 - 17:25 	Student exercise to create Vegetable subclass
+17:25 - 17:40	Monsters and types of Monsters (more theory on inheritance).
+17:40 - 17:55	Student exercise and questions
+17:55 - 18:00	Closing questions
