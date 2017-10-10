@@ -5,6 +5,6 @@
 		Types of food - super and subclasses
 17:15 - 17:20	Motivation for subclasses
 17:20 - 17:25 	Student exercise to create Vegetable subclass
-17:25 - 17:40	Monsters and types of Monsters (more theory on inheritance).
+17:25 - 17:40	Monsters and types of Monsters (more theory on inheritance: method inheritance and overriding methods).
 17:40 - 17:55	Student exercise and questions
 17:55 - 18:00	Closing questions
