@@ -46,11 +46,13 @@ class Vampire(Monster):
         # A subclass should initialize its parent class
         Monster.__init__(self, ssn, name)
         self.master = master
+        self.children = []
 
     # This method overrides the murder method in the Monster class
     def murder(self, victimName):
         super(Vampire, self).murder(victimName)
-        return Vampire(None, victimName, self.name)
+        child = Vampire(None, victimName, self.name)
+        self.children.append(child)
 
     def drink_blood(self, victimName):
         return 'Not Implemented'
@@ -60,7 +62,11 @@ class Vampire(Monster):
         return 'Not Implemented'
 
     # How do setters and getters work in here?
-    # If you did the VERY ADVANCED exercise, how will that change affect ssn and name setters and getters?   
+    # If you did the VERY ADVANCED exercise, how will that change affect ssn and name setters and getters?
+
+class FlyingPurplePeopleEater(Monster):
+
+    # Your turn ;)   
 
 # =========== VERY ADVANCED =========== 
 class Person(object):
